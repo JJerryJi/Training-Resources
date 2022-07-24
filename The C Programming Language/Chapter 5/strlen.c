@@ -9,6 +9,6 @@ int strlen(char *s){
 }
 
 int main(){
-    char s[]="fuck dyy";
+    char s[]="peace and love";
     printf("%d",strlen(&s));
 }
