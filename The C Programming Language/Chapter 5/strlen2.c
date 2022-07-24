@@ -16,6 +16,6 @@ int strlen2(char *s){
 }
 
 int main(){
-    char s[]="peace and love";
-    printf("%d",strlen2(&s));
+    char *s= "I am Jerry";
+    printf("%d",strlen2(s));
 }

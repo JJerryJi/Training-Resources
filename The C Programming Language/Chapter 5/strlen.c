@@ -10,5 +10,5 @@ int strlen(char *s){
 
 int main(){
     char s[]="peace and love";
-    printf("%d",strlen(&s));
+    printf("%d",strlen(s));
 }
